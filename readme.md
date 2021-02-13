@@ -12,7 +12,7 @@ Backend application for XMeme. written in nodeJS. A deployed version can be foun
 Run the server using:
 
 ```
-$ PORT=<port> MONGODB_URL=<url> npm start
+$ PORT=<port> MONGODB_URL=<url> npm run dev
 ```
 
 ## Build
@@ -21,4 +21,10 @@ Build using:
 
 ```
 $ npm tsc
+```
+
+and run the build using:
+
+```
+$ npm start
 ```
