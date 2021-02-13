@@ -1,0 +1,24 @@
+{
+  "name": "xmeme-backend",
+  "version": "1.0.0",
+  "description": "backend for xmeme",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only ./src/app.ts",
+    "tsc": "tsc",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.9",
+    "@types/express": "^4.17.11",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.5"
+  }
+}
