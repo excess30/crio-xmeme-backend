@@ -13,7 +13,7 @@ app.use("/post", posts_router);
 
 mongoose.connect(config.mongodbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((_) => {
-        app.listen(3000, () => console.log("listening on port 3000"));
+        app.listen(config.port, () => console.log(`listening on port ${config.port}`));
     })
     .catch((err) => {
         console.log(err);
