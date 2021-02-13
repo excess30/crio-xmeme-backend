@@ -4,8 +4,8 @@ Backend application for XMeme. written in nodeJS. A deployed version can be foun
 
 ## Endpoints:
 
-- `/posts/all`: Gets all the posts
-- `/posts`: POST endpoint to post a meme
+- `/post/all`: Gets all the posts
+- `/post`: POST endpoint to post a meme
 
 ## Development
 
