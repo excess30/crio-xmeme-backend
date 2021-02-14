@@ -9,7 +9,7 @@ const app: express.Application = express();
 
 app.use(cors())
 app.use(express.json())
-app.use("/meme", posts_router);
+app.use("/memes", posts_router);
 
 mongoose.connect(config.mongodbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((_) => {
