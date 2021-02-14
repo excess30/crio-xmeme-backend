@@ -1,7 +1,7 @@
 import { Schema, model } from 'mongoose';
 
 const postSchema = new Schema({
-    author: {
+    name: {
         type: String
     },
 

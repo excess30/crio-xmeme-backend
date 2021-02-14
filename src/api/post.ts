@@ -3,7 +3,7 @@ import Post from '../models/post';
 
 const router: Router = Router();
 
-router.get("/all", async (_, res) => {
+router.get("/", async (_, res) => {
     const data = await Post.find({}, "-_id -__v"); 
     res.json(data);
 });
